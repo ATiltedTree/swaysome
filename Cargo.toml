@@ -1,0 +1,13 @@
+[package]
+name = "swaysome"
+description = "Make sway workspaces work on a per-screen basis"
+version = "1.0.0"
+edition = "2018"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/ATiltedTree/swaysome"
+keywords = ["cli"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+swayipc = "3.0.0-alpha.3"
+clap = "3.0.0-beta.2"
